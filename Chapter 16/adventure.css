@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+}
+
+html,
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    overflow: hidden;
+}
+
+#story {
+    width: 100%;
+    color: rgb(15, 29, 27);
+    height: 80%;
+    background-color: #e4f310;
+    overflow-y: scroll;
+}
+
+#site-footer,
+.story:after {
+    position: static;
+    bottom: 0;
+    height: 20%;
+}
+
+#question {
+    padding: 10px 0;
+    width: 100%;
+    background-color: #ff3c00;
+    color: #061607;
+}
+
+#answer {
+    padding: 10px 0;
+    width: 100%;
+    background-color: #0989f1;
+    color: #040303;
+    text-align: center;
+    display: none;
+}
+
+.storyPart {
+    display: none;
+}
+
+p {
+    margin-top: 1em;
+}
+

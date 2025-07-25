@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'> <!-- Sets character encoding -->
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'> <!-- Ensures compatibility with IE -->
+    <title>Pizza Order</title> <!-- Page title in browser tab -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'> <!-- Responsive scaling -->
+    <link rel='stylesheet' type='text/css' media='screen' href='pizza.css'> <!-- Link to external CSS -->
+</head>
+
+<body>
+    <h1>JavaScript Pizzeria</h1> <!-- Page heading -->
+
+    <div id="orderForm"> <!-- Form container -->
+
+        <!-- Number of pizzas input -->
+        <label>How many pizzas do you want?
+            <input type="number" id="numPizzas" /> <!-- Input for number of pizzas -->
+        </label>
+        <br /><br />
+
+        <!-- Type of pizza dropdown -->
+        <label>What kind of pizzas?
+            <select id="typePizza"> <!-- Pizza type options -->
+                <option value="cheese">Cheese</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="supreme">Supreme</option>
+                <option value="bacon">Bacon</option>
+                <option value="Ham & Pineapple">Ham & Pineapple</option>
+                <option value="chicken">Chicken</option>
+            </select>
+        </label>
+        <br /><br />
+
+        <!-- Delivery city dropdown -->
+        <label>Where do you live?
+            <select id="deliveryCity"> <!-- Delivery location options -->
+                <option value="Cape Town">Cape Town</option>
+                <option value="Whoville">Whoville</option>
+                <option value="Beverly Hills">Beverly Hills</option>
+                <option value="Stockholm">Stockholm</option>
+            </select>
+        </label>
+        <br /><br />
+
+        <!-- Birthday question dropdown -->
+        <label>Is it your birthday?
+            <select id="birthday"> <!-- Birthday bonus option -->
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </label>
+        <br /><br />
+
+        <!-- Button to place order -->
+        <button type="button" id="placeOrder">Place Order</button> <!-- Triggers JavaScript -->
+    </div>
+
+    <div id="displayTotal"></div> <!-- Output area for order total -->
+
+    <script src='pizza.js'></script> <!-- Link to external JavaScript file -->
+</body>
+
+</html>
