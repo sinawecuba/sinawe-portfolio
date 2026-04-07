@@ -1,0 +1,89 @@
+body {
+   font-family: "Times New Roman", cursive; /* Sets a fun, playful font for all text */
+}
+
+p {
+    font-size: 5em; /* Makes all paragraph text very large (3 times the normal size) */
+}
+
+.eye {
+    background-color: rgb(139, 242, 113);     /* Gives the eyes a blue color */
+    width: 30%;                 /* Each eye takes up 30% of the head's width */
+    height: 30%;                /* Each eye takes up 30% of the head's height */
+    border-radius: 50%;         /* Makes the eyes perfectly circular */
+}
+
+.arm {
+    background-color: #f50b9f;  /* Light grey color for both arms */
+    position: absolute;         /* Allows free placement anywhere on the page */
+    top: 35%;                   /* Vertical position on the page */
+    width: 5%;                  /* Narrow arms */
+    height: 40%;                /* Long arms */
+}
+
+#head {
+    width: 40%;                 /* Width of the robot's head */
+    height: 25%;                /* Height of the robot's head */
+    border-radius: 15%;         /* Slightly rounded corners for the head */
+    background-color: #10161b;  /* Light grey color for the head */
+    position: absolute;         /* Allows placement at specific screen coordinates */
+    left: 32%;                  /* Moves the head to the center horizontally */
+    top: 5%;                    /* Places the head near the top of the screen */
+}
+
+#righteye {
+    background-color: #6d6d5d;
+    position: absolute;         /* Positioned relative to the head */
+    left: 20%;                  /* Left offset for right eye */
+    top: 20%;                   /* Top offset for right eye */
+}
+
+#lefteye {
+    background-color: aquamarine;
+    position: absolute;         /* Positioned relative to the head */
+    left: 60%;                  /* Left offset for left eye (further right than the right eye) */
+    top: 20%;                   /* Top offset for left eye */
+}
+
+#nose {
+    position: absolute;         /* Freely positioned within the head */
+    left: 45%;                  /* Centered horizontally in the head */
+    top: 50%;                   /* Middle vertically in the head */
+    width: 20%;                 /* Small width for the nose */
+    height: 10%;                /* Small height for the nose */
+    background-color: rgb(12, 247, 12);    /* Black colored nose */
+}
+
+#mouth {
+    position: absolute;         /* Positioned inside the head */
+    width: 65%;                 /* Wide mouth */
+    height: 15%;                /* Moderate mouth height */
+    left: 20%;                  /* Horizontally centered in the head */
+    top: 70%;                   /* Lower part of the head */
+    background-color: rgb(174, 0, 255);      /* Red mouth */
+}
+
+#body {
+    position: absolute;         /* Freely positioned */
+    left: 25%;                  /* Horizontally centered below the head */
+    top: 30%;                   /* Starts below the head */
+    width: 45%;                 /* Wide body */
+    height: 55%;                /* Tall body */
+    background-color: #e97d7d;  /* Light grey like the head */
+    text-align: center;         /* Centers the text inside the body */
+    padding-top: 30px;          /* Pushes the text down inside the body */
+}
+
+#rightarm {
+    background-color: #f5ed0b;
+    position: absolute;         /* Allows manual placement */
+    left: 20%;                  /* Positioned to the left of the body */
+}
+
+#leftarm {
+    background-color: #ff0000;
+    position: absolute;         /* Allows manual placement */
+    left: 70%;                  /* Positioned to the right of the body */
+    width: 30%;                 /* Wider than the right arm */
+    height: 20%;                 /* Much shorter than the right arm */
+}
